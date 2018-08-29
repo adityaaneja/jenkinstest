@@ -6,7 +6,6 @@ pipeline {
       steps {
         sh '''#!/bin/bash
 echo "Hello World -aa-"'''
-        timeout(time: 10)
       }
     }
     stage('Done Stage') {
